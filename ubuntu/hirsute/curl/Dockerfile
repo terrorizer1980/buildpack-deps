@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM ubuntu:hirsute
+FROM ubuntu:21.04
 
 RUN set -eux; \
 	apt-get update; \
