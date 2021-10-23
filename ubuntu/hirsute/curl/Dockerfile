@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM ubuntu:hirsute
+FROM ubuntu:devel
 
 RUN set -eux; \
 	apt-get update; \
