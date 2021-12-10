@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM ubuntu:hirsute
+FROM ubuntu:impish-20211102
 
 RUN set -eux; \
 	apt-get update; \
