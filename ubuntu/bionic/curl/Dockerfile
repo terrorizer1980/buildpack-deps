@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM ubuntu:bionic
+FROM ubuntu:18.04
 
 RUN set -eux; \
 	apt-get update; \
