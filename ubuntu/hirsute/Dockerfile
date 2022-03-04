@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM buildpack-deps:hirsute-scm
+FROM buildpack-deps:21.10-scm
 
 RUN set -ex; \
 	apt-get update; \
