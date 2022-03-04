@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM buildpack-deps:hirsute-scm
+FROM buildpack-deps:impish-scm
 
 RUN set -ex; \
 	apt-get update; \
