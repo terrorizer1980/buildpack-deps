@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM debian:bullseye
+FROM debian:11.2
 
 RUN set -eux; \
 	apt-get update; \
