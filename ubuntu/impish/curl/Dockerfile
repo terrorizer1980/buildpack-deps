@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM ubuntu:impish
+FROM ubuntu:21.10
 
 RUN set -eux; \
 	apt-get update; \
