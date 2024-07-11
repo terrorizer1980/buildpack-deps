@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20201014
 
 RUN set -eux; \
 	apt-get update; \
